@@ -16,21 +16,8 @@ android {
 
     buildTypes {
         release {
-            // Enables code shrinking, obfuscation, and optimization for only
-            // your project's release build type.
-            minifyEnabled true
-
-            // Enables resource shrinking, which is performed by the
-            // Android Gradle plugin.
-            // Shrink resources doesn't work for modules/libraries
-            shrinkResources false
-
-            // Includes the default ProGuard rules files that are packaged with
-            // the Android Gradle plugin. To learn more, go to the section about
-            // R8 configuration files.
-            proguardFiles getDefaultProguardFile(
-                    'proguard-android-optimize.txt'),
-                    'proguard-rules.pro'
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
     compileOptions {
@@ -57,7 +44,7 @@ afterEvaluate {
             release(MavenPublication) {
                 groupId = 'com.github.akshayj-tech'
                 artifactId = 'Test2'
-                version = '0.8'
+                version = '0.9'
                 artifact "$buildDir/outputs/aar/react-native-community_checkbox-release.aar"
                 //aar artifact you want to publish
 
