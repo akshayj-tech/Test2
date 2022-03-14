@@ -44,7 +44,7 @@ afterEvaluate {
             release(MavenPublication) {
                 groupId = 'com.github.akshayj-tech'
                 artifactId = 'Test2'
-                version = '0.1'
+                version = '0.7'
                 artifact "$buildDir/outputs/aar/react-native-community_checkbox-release.aar"
                 //aar artifact you want to publish
 
