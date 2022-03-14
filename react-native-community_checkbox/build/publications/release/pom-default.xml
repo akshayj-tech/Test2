@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.akshayj-tech</groupId>
   <artifactId>Test2</artifactId>
-  <version>0.1</version>
+  <version>0.8</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>

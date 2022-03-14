@@ -3,24 +3,24 @@
 3    package="com.temp.test2.test" >
 4
 5    <uses-sdk
-5-->C:\Users\aksha\AndroidStudioProjects\Test2\react-native-community_checkbox\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest11439710379034901439.xml:5:5-74
+5-->C:\Users\aksha\AndroidStudioProjects\Test2\react-native-community_checkbox\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14525733149683790990.xml:5:5-74
 6        android:minSdkVersion="16"
-6-->C:\Users\aksha\AndroidStudioProjects\Test2\react-native-community_checkbox\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest11439710379034901439.xml:5:15-41
+6-->C:\Users\aksha\AndroidStudioProjects\Test2\react-native-community_checkbox\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14525733149683790990.xml:5:15-41
 7        android:targetSdkVersion="31" />
-7-->C:\Users\aksha\AndroidStudioProjects\Test2\react-native-community_checkbox\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest11439710379034901439.xml:5:42-71
+7-->C:\Users\aksha\AndroidStudioProjects\Test2\react-native-community_checkbox\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14525733149683790990.xml:5:42-71
 8
 9    <instrumentation
-9-->C:\Users\aksha\AndroidStudioProjects\Test2\react-native-community_checkbox\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest11439710379034901439.xml:11:5-15:69
+9-->C:\Users\aksha\AndroidStudioProjects\Test2\react-native-community_checkbox\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14525733149683790990.xml:11:5-15:69
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->C:\Users\aksha\AndroidStudioProjects\Test2\react-native-community_checkbox\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest11439710379034901439.xml:11:22-76
+10-->C:\Users\aksha\AndroidStudioProjects\Test2\react-native-community_checkbox\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14525733149683790990.xml:11:22-76
 11        android:functionalTest="false"
-11-->C:\Users\aksha\AndroidStudioProjects\Test2\react-native-community_checkbox\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest11439710379034901439.xml:14:22-52
+11-->C:\Users\aksha\AndroidStudioProjects\Test2\react-native-community_checkbox\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14525733149683790990.xml:14:22-52
 12        android:handleProfiling="false"
-12-->C:\Users\aksha\AndroidStudioProjects\Test2\react-native-community_checkbox\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest11439710379034901439.xml:13:22-53
+12-->C:\Users\aksha\AndroidStudioProjects\Test2\react-native-community_checkbox\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14525733149683790990.xml:13:22-53
 13        android:label="Tests for com.temp.test2.test"
-13-->C:\Users\aksha\AndroidStudioProjects\Test2\react-native-community_checkbox\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest11439710379034901439.xml:15:22-67
+13-->C:\Users\aksha\AndroidStudioProjects\Test2\react-native-community_checkbox\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14525733149683790990.xml:15:22-67
 14        android:targetPackage="com.temp.test2.test" />
-14-->C:\Users\aksha\AndroidStudioProjects\Test2\react-native-community_checkbox\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest11439710379034901439.xml:12:22-65
+14-->C:\Users\aksha\AndroidStudioProjects\Test2\react-native-community_checkbox\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14525733149683790990.xml:12:22-65
 15
 16    <uses-permission android:name="android.permission.REORDER_TASKS" />
 16-->[androidx.test:core:1.4.0] C:\Users\aksha\.gradle\caches\transforms-3\29abda3063474adff7e64183ecedfee8\transformed\core-1.4.0\AndroidManifest.xml:24:5-72
@@ -40,13 +40,13 @@
 22    </queries>
 23
 24    <application
-24-->C:\Users\aksha\AndroidStudioProjects\Test2\react-native-community_checkbox\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest11439710379034901439.xml:7:5-9:19
+24-->C:\Users\aksha\AndroidStudioProjects\Test2\react-native-community_checkbox\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14525733149683790990.xml:7:5-9:19
 25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 25-->[androidx.core:core:1.7.0] C:\Users\aksha\.gradle\caches\transforms-3\02483169c4c9e0ddffa88758188ac6f1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 26        android:debuggable="true" >
 27        <uses-library android:name="android.test.runner" />
-27-->C:\Users\aksha\AndroidStudioProjects\Test2\react-native-community_checkbox\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest11439710379034901439.xml:8:9-60
-27-->C:\Users\aksha\AndroidStudioProjects\Test2\react-native-community_checkbox\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest11439710379034901439.xml:8:23-57
+27-->C:\Users\aksha\AndroidStudioProjects\Test2\react-native-community_checkbox\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14525733149683790990.xml:8:9-60
+27-->C:\Users\aksha\AndroidStudioProjects\Test2\react-native-community_checkbox\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14525733149683790990.xml:8:23-57
 28
 29        <activity
 29-->[androidx.test:core:1.4.0] C:\Users\aksha\.gradle\caches\transforms-3\29abda3063474adff7e64183ecedfee8\transformed\core-1.4.0\AndroidManifest.xml:27:9-34:20
