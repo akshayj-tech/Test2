@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="C:\Users\aksha\AndroidStudioProjects\Test2\react-native-community_checkbox"
+    name=":react-native-community_checkbox"
+    type="LIBRARY"
+    maven="Test2:react-native-community_checkbox:"
+    gradle="7.1.2"
+    buildFolder="build"
+    bootClassPath="C:\Users\aksha\AppData\Local\Android\Sdk\platforms\android-31\android.jar;C:\Users\aksha\AppData\Local\Android\Sdk\build-tools\30.0.3\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-31"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="debug"/>
+</lint-module>
