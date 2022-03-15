@@ -26,16 +26,29 @@ android {
     }
 }
 
-configurations.maybeCreate("default")
-artifacts.add("default", file('react-native-community_checkbox-release.aar'))
+//configurations.maybeCreate("default")
+//artifacts.add("default", file('react-native-community_checkbox-release.aar'))
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar','*.aar'])
-    implementation 'androidx.appcompat:appcompat:1.4.1'
-    implementation 'com.google.android.material:material:1.5.0'
+//    implementation fileTree(dir: 'libs', include: ['*.jar','*.aar'])
+//    implementation 'androidx.appcompat:appcompat:1.4.1'
+//    implementation 'com.google.android.material:material:1.5.0'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    implementation 'com.github.akshayj-tech:Dep01:0.1'
+    implementation 'com.github.akshayj-tech:Dep02:1.0'
+    implementation 'com.github.akshayj-tech:Dep03:1.0'
+    implementation 'com.github.akshayj-tech:Dep04:1.0'
+    implementation 'com.github.akshayj-tech:Dep05:1.0'
+    implementation 'com.github.akshayj-tech:Dep06:1.0'
+    implementation 'com.github.akshayj-tech:Dep07:1.0'
+    implementation 'com.github.akshayj-tech:Dep08:1.0'
+    implementation 'com.github.akshayj-tech:Dep09:1.0'
+    implementation 'com.github.akshayj-tech:Dep10:1.0'
+    implementation 'com.github.akshayj-tech:Dep11:1.0'
+    implementation 'com.github.akshayj-tech:Dep12:1.0'
 }
 
 afterEvaluate {
@@ -44,8 +57,8 @@ afterEvaluate {
             release(MavenPublication) {
                 groupId = 'com.github.akshayj-tech'
                 artifactId = 'Test2'
-                version = '0.9'
-                artifact "$buildDir/outputs/aar/react-native-community_checkbox-release.aar"
+                version = '1.0'
+//                artifact "$buildDir/outputs/aar/react-native-community_checkbox-release.aar"
                 //aar artifact you want to publish
 
                 pom.withXml {
