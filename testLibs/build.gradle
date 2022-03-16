@@ -4,14 +4,12 @@ plugins {
 }
 
 android {
-    compileSdk 30
+    compileSdk 31
 
     defaultConfig {
         minSdk 21
-        targetSdk 30
-
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        consumerProguardFiles "consumer-rules.pro"
+        targetSdk 31
+        vectorDrawables.useSupportLibrary = true
     }
 
     buildTypes {
@@ -24,18 +22,15 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
+    packagingOptions {
+        pickFirst '**/*.so'
+    }
 }
 
-//configurations.maybeCreate("default")
-//artifacts.add("default", file('testLibs-release.aar'))
-
 dependencies {
-//    implementation fileTree(dir: 'libs', include: ['*.jar','*.aar'])
-//    implementation 'androidx.appcompat:appcompat:1.1.1'
-//    implementation 'com.google.android.material:material:1.1.0'
-//    testImplementation 'junit:junit:4.13.2'
-//    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
-//    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    implementation 'androidx.appcompat:appcompat:1.3.0'
+    implementation 'com.google.android.material:material:1.4.0'
 
     implementation 'com.github.akshayj-tech:Dep01:0.1'
     implementation 'com.github.akshayj-tech:Dep02:1.0'
@@ -57,7 +52,7 @@ afterEvaluate {
             release(MavenPublication) {
                 groupId = 'com.github.akshayj-tech'
                 artifactId = 'Test2'
-                version = '1.0'
+                version = '1.4'
 //                artifact "$buildDir/outputs/aar/testLibs-release.aar"
                 //aar artifact you want to publish
 
