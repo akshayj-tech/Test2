@@ -53,8 +53,8 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 groupId = 'com.github.akshayj-tech'
-                artifactId = 'Test2'
-                version = '1.4'
+                artifactId = 'react-native-dependencies'
+                version = '1.7'
 //                artifact "$buildDir/outputs/aar/testLibs-release.aar"
                 //aar artifact you want to publish
 
